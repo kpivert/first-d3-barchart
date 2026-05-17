@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-      <h2>An Awesome Barchart</h2>
+      <h2>Distribution of d3❤️React Cohort</h2>
       <Barplot data={data} />
     </>
   );
