@@ -1,6 +1,7 @@
 import * as d3 from "d3";
 import { useState } from "react";
-import Barplot from "./Barplot";
+// import Barplot from "./Barplot";
+import Barplot_D3 from "./Barplot_D3";
 
 const data = [
   { country: "United States", students: 68 },
@@ -37,8 +38,8 @@ function App() {
 
   return (
     <>
-      <h2>Distribution of d3❤️React Cohort</h2>
-      <Barplot data={data} />
+      <h2>Country Distribution of Students in the d3❤️React Cohort</h2>
+      <Barplot_D3 data={data} />
     </>
   );
 }
